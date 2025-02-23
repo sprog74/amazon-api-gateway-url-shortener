@@ -174,8 +174,8 @@ Resources:
           ErrorCode: 403
         - ErrorCachingMinTTL: 5
           ErrorCode: 500
-        Logging:
-          Bucket: !GetAtt CloudFrontAccessLogsBucket.DomainName
+#        Logging:
+#          Bucket: !GetAtt CloudFrontAccessLogsBucket.DomainName
         Enabled: true
         Origins:
           - CustomOriginConfig:
